@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box {
+  position: relative;
+  left: -190px;
+  width: 250px;
+  height: 60px;
+  background-color: rgb(103, 51, 175);
+  box-shadow: 0 10px 20px black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.box:hover {
+  left: 0px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  padding: 0 0 0 10px;
+}
+.box:hover .text {
+  opacity: 1;
+}
+.icon {
+  font-size: 20px;
+  padding-right: 10px;
+  color: white;
+}
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  display: block;
+  color: white;
+  padding-left: 10px;
+}

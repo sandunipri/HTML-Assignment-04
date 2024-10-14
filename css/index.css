@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background-image: url("/assects/images/index\ picture-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  /* border: 1px solid white;
+    background-color: black; */
+}
+
+.container {
+  width: 100%;
+  height: calc(100% - 100px);
+
+  /* opacity: 0.5; */
+}
+
+.cases {
+  width: 40%;
+  height: 100%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.topic {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  color: white;
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  text-align: center;
+  font-size: 130px;
+}
+.box {
+  width: 50%;
+  height: 50px;
+  background-color: grey;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px white;
+}
+a {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+}
